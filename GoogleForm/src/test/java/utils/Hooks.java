@@ -16,7 +16,7 @@ public class Hooks {
 
     @Before
     public void setup() {
-        System.setProperty("webdriver.chrome.driver","C://Dev/Selenium/CuraCucumber/src/test/resources/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C://Dev/Selenium/GoogleForm/src/test/resources/drivers/chromedriver.exe");
         driver = new ChromeDriver();
 
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
